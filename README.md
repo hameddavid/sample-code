@@ -1,6 +1,8 @@
 # Multi-Gateway Payment System — Code Sample
 
-Extracted (sanitized) from a production **Transcript & Records Management System** built for a Nigerian university. The full application handles transcript requests, multi-destination payments, tiered admin approvals, and degree verification — serving students, registrar staff, and external institutions.
+> **Note:** This is a sanitized extract from a private production repository I built and maintain for an organization. The full application is live at [https://nrecords.run.edu.ng](https://nrecords.run.edu.ng/). The source repository is private as it belongs to the institution, so I've extracted the most architecturally representative files here — with all credentials, API keys, and institution-specific identifiers removed — to serve as a public code sample.
+
+Extracted from a production **Transcript & Records Management System** built for a Nigerian university. The full application handles transcript requests, multi-destination payments, tiered admin approvals, and degree verification — serving students, registrar staff, and external institutions.
 
 ## Architecture Highlights
 
@@ -63,8 +65,13 @@ resources/js/pages/admin/
 deploy.sh                         # Automated deploy pipeline
 ```
 
+## Live Application
+
+The full system is deployed and running at **[https://nrecords.run.edu.ng](https://nrecords.run.edu.ng/)**.
+
 ## Notes
 
 - All credentials, API keys, and institution-specific identifiers have been replaced with placeholders
 - The full application includes additional modules (transcript workflow, PDF generation, degree verification, result upload, student import) not shown here
 - OpenAPI/Swagger annotations are included on controller methods
+- The production repository is private — this sample is provided for code review purposes
